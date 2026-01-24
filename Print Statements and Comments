@@ -1,0 +1,18 @@
+# This is a single-line comment
+# Comments are ignored by Python
+
+print("Hello, World!")   # This prints a message on the screen
+
+print("Welcome to Python programming")
+
+# You can also print numbers
+print(10)
+print(5 + 3)
+
+"""
+This is a multi-line comment
+(or docstring)
+It can span multiple lines
+"""
+
+print("Comments help make code readable")
