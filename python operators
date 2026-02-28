@@ -1,0 +1,77 @@
+# 1. Arithmetic Operators
+a = 10
+b = 3
+
+print("Arithmetic Operators:")
+print("Addition:", a + b)        # 13
+print("Subtraction:", a - b)     # 7
+print("Multiplication:", a * b)  # 30
+print("Division:", a / b)        # 3.333...
+print("Floor Division:", a // b) # 3
+print("Modulus:", a % b)         # 1
+print("Exponent:", a ** b)       # 1000
+
+
+# 2. Comparison Operators
+print("\nComparison Operators:")
+print("Equal:", a == b)          # False
+print("Not Equal:", a != b)      # True
+print("Greater Than:", a > b)    # True
+print("Less Than:", a < b)       # False
+print("Greater Equal:", a >= b)  # True
+print("Less Equal:", a <= b)     # False
+
+
+# 3. Logical Operators
+x = True
+y = False
+
+print("\nLogical Operators:")
+print("AND:", x and y)           # False
+print("OR:", x or y)             # True
+print("NOT:", not x)             # False
+
+
+# 4. Assignment Operators
+c = 5
+print("\nAssignment Operators:")
+c += 2
+print("Add & Assign:", c)        # 7
+c -= 1
+print("Subtract & Assign:", c)   # 6
+c *= 3
+print("Multiply & Assign:", c)   # 18
+c /= 2
+print("Divide & Assign:", c)     # 9.0
+
+
+# 5. Bitwise Operators
+m = 5   # 0101
+n = 3   # 0011
+
+print("\nBitwise Operators:")
+print("AND:", m & n)             # 1
+print("OR:", m | n)              # 7
+print("XOR:", m ^ n)             # 6
+print("NOT:", ~m)                # -6
+print("Left Shift:", m << 1)     # 10
+print("Right Shift:", m >> 1)    # 2
+
+
+# 6. Membership Operators
+lst = [1, 2, 3, 4]
+
+print("\nMembership Operators:")
+print("2 in list:", 2 in lst)        # True
+print("5 not in list:", 5 not in lst)# True
+
+
+# 7. Identity Operators
+p = [1, 2, 3]
+q = p
+r = [1, 2, 3]
+
+print("\nIdentity Operators:")
+print("p is q:", p is q)         # True (same object)
+print("p is r:", p is r)         # False (different objects)
+print("p == r:", p == r)         # True (same values)
